@@ -1,0 +1,56 @@
+.variants_cards {
+  display: flex;
+  height: 600px;
+  color: white;
+}
+
+.variants_left {
+  width: 35%;
+  background-color: #ae1212;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 5%;
+  padding-left: 12%;
+}
+
+.variants_right {
+  width: 65%;
+  background-color: #e0d8d8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.variants_right > img {
+  width: 70%;
+  height: 70%;
+}
+
+.varient_type {
+  font-size: 0.9em;
+  opacity: 0.7;
+}
+
+.varient_name,
+.varient_price {
+  font-size: 2em;
+  font-weight: 600;
+}
+
+.variants_left > .icon {
+  display: flex;
+  gap: 10%;
+  font-size: 1em;
+}
+
+.variants_left > .icon > i {
+  padding: 10px;
+  border: 1px solid white;
+  opacity: 0.6;
+}
+
+.variants_left > .icon > i:hover {
+    opacity: 1;
+    cursor: pointer;
+}

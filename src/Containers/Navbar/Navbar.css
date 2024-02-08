@@ -1,0 +1,105 @@
+.navbar_container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 20px 50px;
+  text-transform: uppercase;
+  color: white;
+  font-weight: 600;
+  font-size: 0.9em;
+  width: 100%;
+}
+
+.nav_left {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.nav_right {
+  width: 23%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.brand_logo {
+  font-size: 2.2em;
+  font-weight: 900;
+}
+
+.nav_links > ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.nav_links > ul > li:hover {
+  cursor: pointer;
+  color: #ae1212;
+}
+
+.search_section {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+
+.search_section > i {
+  padding-right: 10px;
+}
+
+.search_section > input {
+  background: transparent;
+  border: none;
+  outline: none;
+  font-size: 1em;
+  font-weight: 700;
+  color: white;
+}
+
+.search_section > input::placeholder {
+  color: white;
+  padding: 10px 30px 10px 0px;
+  font-size: 1em;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.profile_section {
+  font-size: 1.2em;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 27px;
+
+  font-weight: normal !important;
+}
+
+.profile_section > i:hover,
+.nav_cart_icon:hover {
+  color: #ae1212;
+  cursor: pointer;
+}
+
+.nav_cart_icon {
+  line-height: 0px;
+  font-size: 1em;
+  position: relative;
+}
+
+.nav_cart_icon > .cart_counter {
+  position: absolute;
+  bottom: -3px;
+  right: -3px;
+  font-size: 10px;
+
+  padding: 6px 4px;
+  background-color: #ae1212;
+  border-radius: 50%;
+}

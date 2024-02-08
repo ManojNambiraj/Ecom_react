@@ -1,0 +1,134 @@
+.popular_header_part {
+  text-align: center;
+}
+
+.popular_main {
+  font-weight: 800;
+  font-size: 2em;
+  text-transform: uppercase;
+  letter-spacing: 1.2px;
+  padding-bottom: 20px;
+}
+
+.popular_sub {
+  font-size: 0.9em;
+}
+
+.poppular_state_header {
+  margin: 3% 0%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 50px;
+  font-size: 0.9em;
+  font-weight: 600;
+}
+
+/* .poppular_state_header > .state_head {
+ 
+} */
+
+.selected_state_head {
+  border-bottom: 2px solid black;
+  padding-bottom: 4px;
+}
+
+.poppular_state_header > .state_head:hover {
+  color: red;
+  cursor: pointer;
+}
+
+.popular_list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  column-gap: 6%;
+}
+
+.popular_product_card {
+  width: 260px;
+  height: 350px;
+  /* border: 1px solid black; */
+  margin-bottom: 2%;
+}
+
+.popular_product_card > .product_img_box {
+  position: relative;
+  border: 1px solid rgb(197, 186, 186);
+  height: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.popular_product_card > .product_img_box:hover {
+}
+
+.product_img_box > img {
+  width: 70%;
+  object-fit: cover;
+}
+
+.card_details {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card_details > .left_details {
+  display: flex;
+  flex-direction: column;
+  gap: 13px;
+  padding-top: 15px;
+}
+
+.left_details > .pro_type {
+  opacity: 0.3;
+  font-size: smaller;
+  font-weight: 700;
+}
+
+.left_details > .pro_name {
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.left_details > .pro_price {
+  color: red;
+  font-size: 0.9em;
+  font-weight: 800;
+}
+
+.right_ratings {
+  font-size: 0.6em;
+  color: red;
+  padding-top: 15px;
+  display: flex;
+  gap: 5px;
+}
+
+.gradient-overlay-white {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(
+    to bottom,
+    rgba(244, 234, 234, 0.8),
+    rgba(248, 242, 242, 0.8)
+  );
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.gradient-overlay-white > i {
+  background-color: #da1818;
+  padding: 10px;
+  color: white;
+}

@@ -1,0 +1,31 @@
+.support_main {
+  font-size: 1.4em;
+  font-weight: 700;
+}
+
+.support_sub {
+  font-size: 0.8em;
+  opacity: 0.5;
+}
+
+.support_card {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+
+.support_card > i {
+  font-size: 4em;
+  color: #ae1212;
+}
+
+.support_container {
+  display: flex;
+  gap: 4%;
+}
+
+.support_container {
+  margin-bottom: 8%;
+}

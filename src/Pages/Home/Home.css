@@ -1,0 +1,38 @@
+.main_container {
+  position: relative;
+}
+
+.ScrollArrow {
+  position: fixed;
+  top: 91%;
+  right: 1%;
+}
+
+.home_section_1,
+.home_section_2,
+.home_section_3 {
+  width: 100vw;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.categories,
+.most_Popular,
+.our_equipment,
+.latest_articles,
+.support {
+  width: 80%;
+  padding: 7% 0% 0%;
+}
+
+.variants {
+  width: 90%;
+  padding: 7% 0% 0%;
+}
+
+.video_card {
+  position: relative;
+}

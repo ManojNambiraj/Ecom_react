@@ -1,0 +1,23 @@
+.latest_list {
+  margin-top: 4%;
+}
+
+#article_card {
+  height: 335px;
+}
+
+#article_heading {
+  padding: 190px 0px 0px 49px;
+  font-size: 1.2em;
+  font-weight: 600;
+}
+
+.author_title {
+  font-size: 0.8em;
+  font-weight: 200;
+  opacity: 0.6;
+  display: flex;
+  justify-content: space-between;
+  width: 70%;
+  margin-bottom: 10px;
+}
